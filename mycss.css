@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 650px;
+    background: linear-gradient(to right, #00008b, #e13a9d);
+    letter-spacing: 1px;
+}
+h1{
+    color: #fff;  
+    padding: 0px;
+    font-weight: 500;
+}
+h1:hover{
+    background-color:red;  
+}
+h1 span {
+    font-weight: 100;
+}
+.cards {
+    height: 520px;
+    width: 350px;
+    padding: 50px 20px;
+    margin: 10px;
+    color: #fff;
+    text-align: center;
+    background-color: #000047;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
+    transition: 0.5s all ease-in-out;
+}
+.cards:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.7);
+}
+
+.cards img {
+    width: 250px;
+    width: 250px;
+    border-radius: 50%; 
+    margin-bottom: 10px;
+    padding: 2px;
+    outline: 2px solid #e13a9d;
+}
+.cards img:hover {
+   background-color: red;
+}
+.cards h4{
+    font-size: 18px;
+}
+.cards h4:hover{
+    background: red;
+}
+.cards p{
+font-size: 13px;
+    margin-top: 10px;
+    color: lightgrey;
+}
+.cards p:hover{
+    background: red;
+    }
+.cards a button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: 0;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #39ce86;
+    transition: 0.3s all ease-in-out;
+ }
+ .cards a button:hover{
+    background-color: burlywood;
+ }
+ .social-media a i{
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 2px;
+    transition: 0.5s;
+ }
+ .social-media a i:hover{
+    color: #e13a9d;
+ }
+ .social-media{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+ }
